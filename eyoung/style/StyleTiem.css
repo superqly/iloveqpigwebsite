@@ -1,0 +1,331 @@
+﻿.Middle_middle_tiem
+{
+  float:left;
+  width:764px;
+  float:left;
+  padding-left:40px;
+}
+.Middle_middle_Ltiem
+{
+	float:left;
+  width:244px;
+  float:left;
+  padding-left:10px;
+}
+.tiem_middle
+{
+ width:1100px;
+}
+.MiddleTiem
+{
+	margin-top:25px;
+	width:1100px;
+
+}
+#logo
+{
+	width:16px;
+	float:left;
+	vertical-align:top;
+    height:100%;
+	
+}
+#img01
+{
+	width: 16px;
+	height: 215px;
+	background-image: url( 'http://www.sinodms.com/images/hr01_04.jpg' );
+	background-repeat: no-repeat;
+}
+#img02
+{
+	width: 16px;
+    height:100%;
+    min-height:100px;
+	background-image: url( 'http://www.sinodms.com/images/hr01_02.jpg' );
+	background-repeat: repeat;
+}
+
+#img03
+{
+	width: 16px;
+	height: 265px;
+	background-image: url('http://www.sinodms.com/images/hr01_01.jpg');
+	background-repeat: no-repeat;
+}
+#leirong
+{
+  float:left;
+  width:721px;
+  padding-left:27px;
+}
+.h1title
+{
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#666666;
+    font-weight:normal;
+}
+#title
+{
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	 width: 490px;
+}
+strong
+{
+	color:#333333;
+}
+p
+{
+	margin-top: 30px;
+	margin-bottom: 28px;
+	line-height: 20px;
+	text-indent: 20px;
+	font-size:14px;
+	color:#666666;
+}
+#black
+{
+ padding-top:60px;
+}
+#addour p
+{
+margin-top: 20px;
+	margin-bottom: 28px;
+	line-height: 20px;
+	text-indent: 20px;
+	font-size:15px;
+	color:#666666;
+}
+#pingtai
+{
+ height:27px;
+}	
+#tupian
+{
+         width: 354px;
+            height: 192px;
+            text-align:left;
+}
+#tupian01
+{
+     width: 20px;
+     height: 192px;
+}
+.tablepic td
+{
+ padding-left:20px;
+ text-align:left;
+}
+.tablepic p
+{
+	margin-top: 10px;
+	margin-bottom: 28px;
+	margin-left:-20px;
+	line-height: 20px;
+	text-indent: 20px;
+	font-size:15px;
+	color:#333333;
+}
+#culturel
+{
+ width:45%;
+ text-align:left;
+ padding-left:20px;
+ float:left;
+ padding-top:15px;
+ color:#666666;	
+ font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+ font-size: 15px
+}
+#cultureR
+{
+	 padding-top:25px;
+ width:300px;
+ text-align:right;
+ float:right;
+}
+#culturel p
+{
+ margin-top:15px;
+ margin-bottom:15px;
+  font-size:14px;
+ color:#666666;	
+ padding-left:0px;
+ margin-left:0px;
+ text-align:left;
+} 
+#culturel strong
+{ 
+	color:#333333;
+}
+#titleLiNian
+{
+font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+ height:34px;
+  font-size:12px;
+}
+#cheight
+{
+ height:23px;
+}
+.new_title
+{
+	font-size: 18px;
+	color: #000000;
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.h1new_title
+{
+ font-size: 18px;
+	color: #000000;
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+}
+.new_title a
+{
+ 	color: #000000;
+}
+.new_title_time
+{
+  font-size:12px;
+  color:#cccccc;
+   font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+}
+.new_title_tag
+{
+	font-size:12px;
+  color:#ff9900;
+   font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+}
+.new_title_font
+{
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	text-indent: 20px;
+	line-height: 19px;
+	text-align: left;
+	padding-top:10px;
+}
+.imgs
+{
+ width:158px;
+ margin-left:20px;
+ float:left;
+ padding-left:0px;
+}
+.newlist_img
+{
+ padding-right:20px;
+ vertical-align:top;
+}
+.indus_title
+{
+	font-size: 18px;
+	color: #ff9900;
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	text-indent: 20px;
+	text-align:center;
+	
+}
+.h1_title
+{
+	font-size: 18px;
+	color: #ff9900;
+	font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif;
+	text-indent: 20px;
+	text-align:center;
+	
+}
+#industryNew p
+{
+  margin-top:10px;
+  margin-bottom:10px;
+  color:#666666;
+}
+#industryNew strong
+{
+
+  color:#333333;
+}
+.industryNewList 
+{
+ text-align:left;
+ list-style-type: none;
+ font-family: 微软雅黑,宋体, Arial, Helvetica, sans-serif; 
+ font-size:12px;
+ 
+}
+.industryNewList  a,.industryNewList a:link,.industryNewList a:visited
+{
+	  color:#333333;
+	  font-size:12px;
+}
+.industryNewList a:hover
+{
+ 	color:#e85555;
+ 	font-size:12px;
+}
+.Marketing_l
+{
+ color:#ff9900;
+ text-align:left;
+ float:left;
+ width:250px;
+}
+.Marketing_l li
+{
+ text-align:left;
+}
+.Marketing_R
+{
+	width: 388px;
+	height:388px;
+	margin-top:80px;
+	float:right;
+	background-image: url( 'http://www.sinodms.com/images/ser_07.jpg' );
+	background-repeat: no-repeat;
+
+}
+.marketing_instance{
+text-align:left;
+list-style-type:disc; 
+list-style-position:inside;
+}
+.marketing_instance li
+{
+ margin-top:10px;
+ margin-bottom:10px;	
+}
+.marketing01 {
+	color: #669933;
+	font-weight: bold;
+}
+.pre_middle
+{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: White;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.pre_middle_button
+{
+	height: 120px;
+	text-align: left;
+	font-family: 宋体;
+	font-size: 12px;
+	color: Black;
+}
+.pre_button
+{
+	text-align: left;
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 10px;
+}

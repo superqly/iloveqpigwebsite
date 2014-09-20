@@ -1,0 +1,35 @@
+﻿*{ list-style:none;}
+body{ font-size:12px; }
+a{ color:#000; text-decoration:none; }
+a{text-indent:0px;}
+a img{ border:0}
+a:hover{ text-decoration:underline;}
+.clear{ width:0; height:0; overflow:hidden; display:block; clear:both;}
+P{margin:0px;}
+.mbLine{ display:none; position:absolute; z-index:1; border:0px dashed #eee;} 
+
+.mainblock{}/*头部样式*/
+.mbPadding{ padding:0; border:0px dashed #eee; padding:0px;}
+.mbContent{ _height:20px; min-height:20px; padding:0px; border:0px dashed #eee;}  /*单个区块最小高度 此高度 height 可自由更改*/
+
+
+/*第二套九格*/
+.tem_mbLine{ display:none; position:absolute; z-index:1; border:0px dashed #eee;} 
+.tem_mainblock{}/*头部样式*/
+.tem_mbPadding{ padding:0; border:0px dashed #eee; padding:0px;}
+.tem_mbContent{ _height:20px; min-height:20px; padding:0px; border:0px dashed #eee;}  /*单个区块最小高度 此高度 height 可自由更改*/
+
+
+/*分割线，以上为全局样式，以下为划分区块自定义样式*/
+ 
+.container{ width:950px; margin:0px auto;} /*此宽度 width 可自由更改*/
+#ctl00_ContentPlaceHolder1_htmlContent{width:100%;display:inline-block; zoom:1; *display:inline;}
+/*↑↑以上为全局样式无需修改↑↑*/
+ 
+ a:hover{ text-decoration:underline;}
+.clear{ width:0; height:0; overflow:hidden; display:block; clear:both;}
+
+ 
+img {display:block;}
+
+span{display:inline-block; zoom:1; *display:inline;}

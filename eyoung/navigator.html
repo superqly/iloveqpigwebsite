@@ -1,0 +1,100 @@
+﻿<script type="text/javascript">
+<!--
+    /*第一种形式 第二种形式 更换显示样式*/
+    function setTab(name, cursel, n) {
+        for (i = 1; i <= n; i++) {
+            var menu = document.getElementById(name + i);
+            if (menu == null) return;
+            var con = document.getElementById("con_" + name + "_" + i);
+            menu.className = i == cursel ? "hover" : "";
+            if (i == cursel)
+                $("#" + "con_" + name + "_" + i).slideDown(300);
+            else
+                $("#" + "con_" + name + "_" + i).slideUp(300);
+            //con.style.display = i == cursel ? "block" : "none";
+        }
+    }
+    //-->
+</script>
+
+<div> <!--Menu-->
+            <div class="Menu_left"><a href="index.html"><img src="images/logo.png" alt=""/></a></div>
+            <div class="Menu_right">
+               <table style="height: 123px">
+                 <tr><td class="Menu_tableTop"  style="white-space:nowrap;word-break: keep-all;padding-left:73%">
+                   <div   style="white-space:nowrap; clear:right;"> 
+                        <ul class="ul"  style="white-space:nowrap;">
+                        <li class="li" ><a href="index.html">首页</a></li>
+                        <li class="li"><a href="addOurs/Cooperation.html" style="color:#cc3333;">联系我们</a></li>
+       <li class="li" style=" width:10px; margin-left:-60px;float:left" ><!--<<wb:share-button count="n" size="middle" relateuid="2086324145" ></wb:share-button>-->
+  </li></ul>
+                       </div>
+					   
+                 </td></tr>
+                 <tr><td class="Menu_tableButtom">
+                   <div class="Menu_Parent_head">
+                   <!--Menu_head-->
+                     <table><tr>
+                     <td id="two1" onmouseover="setTab('two',1,6)"><a href="aboutCompany/companyIntroduction.html" > 关于毅昂</a></td>
+                     <td id="two2" onmouseover="setTab('two',2,6)"><a>毅昂新闻</a></td>
+                     <td id="two3" onmouseover="setTab('two',3,6)"><a>产品服务</a></td>
+                     <td id="two4" onmouseover="setTab('two',4,6)"><a>精彩案例</a></td>
+                     <td id="two5" onmouseover="setTab('two',5,6)"><a href="addOurs/Cooperation.html" >加入我们</a></td>
+                     </tr></table>
+                   </div>
+                   <div>
+                     <!--Menu_head_Submenu-->
+                     <div id="con_two_1" style="padding-left:10px; display:none;"  class="subMenu_head subMenu_head01 ">
+                      <!--about_zhiyou-->
+                      <div class="Submenu_left"></div><div class="Submenu_middle">
+                         <ul><li class="subMenu_Middle01"><a href="aboutCompany/companyIntroduction.html">公司简介</a> </li><li>|</li>
+                            <li class="subMenu_Middle01"><a href="aboutCompany/CompanyCulture.html">公司文化</a></ul>
+                      </div><div class="Submenu_right"></div>
+                       
+                     </div>
+                     <div id="con_two_2" style="padding-left:150px; display:none;"  class="subMenu_head subMenu_head01 ">
+                      <!--新闻-->
+                      <div class="Submenu_left"></div><div class="Submenu_middle">
+                         <ul><li class="subMenu_Middle01"><a>毅昂新闻</a> </li><li>|</li>
+                            <li class="subMenu_Middle01"><a>毅昂资讯</a></li>
+                          </ul> 
+                      </div><div class="Submenu_right"></div>
+                       
+                     </div>
+                     <div id="con_two_3" style="padding-left:300px; display:none;"  class="subMenu_head subMenu_head01 ">
+                      <!--毅昂服务-->
+                      <div class="Submenu_left"></div><div class="Submenu_middle">
+                         <ul><li class="subMenu_Middle01"><a href="service/PreMarketing.html">全程服务</a></li><li>|</li>
+                             <li class="subMenu_Middle01"><a href="service/netMarketing.html">单项服务</a></li><li>|</li>
+                             <li class="subMenu_Middle01"><a href="service/activity.html">影视制作</a></li><li>|</li>
+                             <li class="subMenu_Middle01"><a href="service/CRM.html">拍摄服务</a></li><li>|</li>
+                             <li class="subMenu_Middle01"><a href="service/chaxie.html">茶歇</a></li><li>|</li>
+                             <li class="subMenu_Middle01"><a href="gift/zisha.html">礼品</a></li>
+                          </ul> 
+                      </div><div class="Submenu_right"></div>
+                       
+                     </div>
+                     <div id="con_two_4" style="padding-left:440px; display:none;"  class="subMenu_head subMenu_head01 ">
+                      <!--客户及案例-->
+                      <div class="Submenu_left"></div><div class="Submenu_middle">
+                        <ul><li class="subMenu_Middle01"><a>精彩案例</a></li><li>|</li>
+                       <li class="subMenu_Middle01"><a>设计作品</a></li><li>|</li>
+                       <li class="subMenu_Middle01"><a href="case/ourCustomers.html">我们的客户</a></li>
+                          </ul> 
+                      </div><div class="Submenu_right"></div>
+                       
+                     </div>
+                    <div id="con_two_5" style="padding-left:580px; display:none;"  class="subMenu_head subMenu_head01 ">
+                      <!--加入我们-->
+                      <div class="Submenu_left"></div><div class="Submenu_middle">
+                         <ul>
+                             <li class="subMenu_Middle01"><a href="addOurs/Cooperation.html">企业合作</a></li>
+                          </ul> 
+                      </div><div class="Submenu_right"></div>
+                       
+                     </div> 
+                   </div>
+                 </td></tr>
+               </table>
+            </div>
+        </div>

@@ -1,0 +1,95 @@
+
+/* CSS Document */
+*
+{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: left;
+	font-family: ?бщииик??oи▓;
+	font-size: 20px;
+}
+img
+{
+	border: 0px;
+}
+ul li
+{
+	list-style: none;
+}
+/*menu*/
+#menu
+{
+	width: 200px;
+	height: auto;
+	padding-top: 5px;
+	color: #AAA9A9;
+}
+#menu li
+{
+	width: 200px;
+	text-indent: 2em;
+	height: 35px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #AAA9A9;
+	color: #AAA9A9;
+	vertical-align: middle;
+}
+#menu li a, #menu li a:link, #menu li a:visited, #menu li a:visited
+{
+	font-family: ?бщииик??oи▓,??им?, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #AAA9A9;
+	display: block;
+}
+#menu .li01, #menu .li01hover
+{
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+}
+#menu .li01 a:link, #menu .li01 a:visited, #menu .li01 a:active
+{
+	color: #AAA9A9;
+	text-decoration: none;
+	font-size: 17px;
+	letter-spacing: -1px;
+}
+#menu .li01 a:hover
+{
+	color: #6EB026;
+	font-family: ?бщииик??oи▓;
+	text-decoration: none;
+	background: url(../images/gou.png) no-repeat 3px 7px;
+	display: block;
+	font-size: 18px;
+}
+.li01hover a:link, .li01hover a:active
+{
+	text-decoration: none;
+	background: url(../images/gou.png) no-repeat 3px 7px;
+	display: block;
+	font-family: ?бщииик??oи▓;
+}
+.font
+{
+	width: 221px;
+}
+.li02
+{
+	height: 0px;
+	margin: 0px;
+}
+a:webkit-any-link
+{
+	display: block;
+}
+
+
